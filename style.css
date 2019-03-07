@@ -45,15 +45,18 @@ body{
     flex-basis: 400px;
     flex-shrink: 3;     /*flex: grow shrink basis*/
     flex-grow: 1;
+    align-self: flex-end;
 }
 .elem-2{
     flex-basis: 400px;
     flex-shrink: 1;
     flex-grow: 3;
+    align-self: flex-start;
 }
 .elem-3{
     flex-basis: 400px;
     flex-shrink: 5;
     flex-grow: 5;
+    align-self: center;
 }
 
