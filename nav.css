@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+ul{
+    background-color: #333;
+    padding-left: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+li:hover{
+    background-color: #555;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+aside, article {
+    background: #7a7a7a;
+    height: 300px;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+
+.menu ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+li{
+    width: 100px;
+}
+
+.main{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.main > article{
+    width: 70%;  
+}
+
+.main > aside{
+    width: 30%;
+    margin-left: 0;
+}
+
+}
