@@ -3,11 +3,18 @@ body{
 }
 
 .flex-container{
-    width: 300px;
+    width: 40%;
     margin: 0 auto;
+    padding: 15px;
     background: #fcf0f7;
     display: flex;
-    flex-flow: row-reverse wrap;   /*flex-direction + flex-wrap*/
+    flex-flow: row wrap;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
 
 }
 
